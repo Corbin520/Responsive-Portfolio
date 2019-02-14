@@ -1,0 +1,15 @@
+body {
+    width: 960px;
+}
+
+
+h1 {
+    font-size: 20px;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+}
+
+a {
+    color: black;
+}
