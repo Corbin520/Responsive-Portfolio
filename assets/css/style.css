@@ -1,3 +1,9 @@
+/* always include this VV */
+html,
+body {
+    height: 100%;
+}
+
 body {
     width: 100%;
     clear: both;
@@ -6,17 +12,21 @@ body {
     display: -webkit-box;
 }
 
+.main-content {
 
-h1 {
+    height: 100%;
+}
+.header > h1 {
     background: #4aaaa5;
     color: #ffffff;
     text-align: center;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0 520px 0 205px;
+    margin: 0 0 0 50px; 
     padding: 20px;
     float: left;
-  
+   
+  /* 0 520 0 205 orig marg */
 }
 
 header {
@@ -29,6 +39,11 @@ header {
     border-bottom: solid 2px #cccccc;
     background: #ffffff;
     clear: both;
+}
+
+.header-nav {
+    float: right;
+    padding-right: 50px;
 }
 
 a {
@@ -53,7 +68,7 @@ a {
     
     clear: both;
     padding: 10px 40px 20px 40px;
-    margin: 100px auto 60px auto;
+    margin: 100px auto 60px 50px;
     width: 960px;
     border: solid 2px #cccccc;
     background: #ffffff;
@@ -73,6 +88,8 @@ h2 {
     margin-right: 10px;
     margin-bottom: 10px;
     border-radius: 7px;
+    width: 210px;
+    height: 210px;
 }
 
 p {
@@ -87,7 +104,7 @@ footer {
     color: #ffffff;
     width: 100%;
     bottom: 0;
-    left: 0;
+    left: 0; 
     position: fixed;
     margin-top: 25px;
     border-top: solid 7px #4aaaa5;
@@ -155,11 +172,53 @@ h6 {
 
 @media screen and (max-width: 980px) {
     /* When size goes below 980, do this */
-    body {
-        width: 980px;  
+
+    .about-me {
+        width: 50%;
+        margin: 10px 50px;
     }
-    
-    h1 {
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .about-me {
+        
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    #beach-picture {
+        
+        width: 100%;
+        height: 400px;
+    }
+
+    .header-nav {
+
+        width: 100%;
+        clear: both;
+        padding-right: 0;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .header > h1 {
+
+        width: 100%;
+        margin: 0;
+        clear: both;
+    }
+}
+
+
+
+
+
+
+
+
+    /* h1 {
         background: #4aaaa5;
         color: #ffffff;
         text-align: center;
@@ -177,5 +236,5 @@ h6 {
         width: 980px;
         border: solid 2px #cccccc;
         background: #ffffff;
-    }
-}
+    } */
+

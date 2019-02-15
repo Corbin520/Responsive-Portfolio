@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+/* re-do tomorrow */
 html, body, div, span, applet, object, iframe,
 h1, h3, h4, h5, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -62,9 +63,9 @@ footer {
 clear: both;
 color: #ffffff;
 width: 100%;
-bottom: 0;
-left: 0;
-position: fixed;
+/* bottom: 0;
+left: 0; */
+/* position: fixed; */
 margin-top: 25px;
 border-top: solid 7px #4aaaa5;
 text-align: center;
