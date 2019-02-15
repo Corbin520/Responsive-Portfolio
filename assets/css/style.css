@@ -108,7 +108,7 @@ p {
     color: #777777;
 }
 
-footer {
+.index-footer, .contact-footer, .portfolio-footer {
     clear: both;
     color: #ffffff;
     width: 100%;
@@ -165,14 +165,32 @@ footer {
     width: 950px;
 }
 
+
+
+
+
+
+
 @media screen and (max-width: 980px) {
     /* Left todo, fix footer to not be stuck over about-me */
 
-    .about-me, .my-portfolio, .my-contact {
-        width: 50%;
+    .about-me {
+        width: 60%;
+        margin-top: 100px;
+        float: left;
+        margin-left: 50px;
+    }
+    
+    .my-portfolio {
+        width: 60%;
         margin: 0 0 0 50px; 
         margin-top: 100px;
-        padding-bottom: 75px;
+        padding-bottom: 730px;
+    }
+    .my-contact {
+        width: 60%;
+        float: left;
+        margin-left: 50px;
     }
 
     .moto-img {
