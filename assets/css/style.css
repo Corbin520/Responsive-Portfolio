@@ -17,9 +17,9 @@ body {
 }
 
 .wrapper{
-
     min-height: 100%;
 }
+
 .header > h1 {
     background: #4aaaa5;
     color: #ffffff;
@@ -165,14 +165,11 @@ p {
     width: 950px;
 }
 
+                            /* Responsive Media HW */
 
 
-
-
-
-
+/* 960px */
 @media screen and (max-width: 980px) {
-    /* Left todo, fix footer to not be stuck over about-me */
 
     .about-me {
         width: 60%;
@@ -212,20 +209,59 @@ p {
 }
 
 
+/* 768px */
 @media screen and (max-width: 768px) {
 
+    .about-me, .my-contact {
+        width: 95%;
+        float: left;
+        margin-left: 20px;
+    }
 
+    .my-portfolio{
+        width: 95%;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
 
+    .my-contact,.my-portfolio {
+        margin-top: 116px;
+    }
 
+    .header > h1 {
+        margin-left: 20px;
+    }
 
+    p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #name-input, #email-input {
+        height: 30px;
+        width: 647px;
+    } 
+
+    #message-input {
+        width: 647px;
+    }
 }
 
+
+/* 640px */
 @media screen and (max-width: 640px) {
 
-    .about-me {
+    .about-me, .my-contact, .my-portfolio {
         
-        width: 75%;
-        margin: 0 auto;
+        width: 85%;
+        margin: 15px auto;
+        float: left;
+        margin-left: 50px;
+    }
+    .my-portfolio, .my-contact {
+
+        margin-top: 181px;
     }
 
     #beach-picture {
@@ -236,13 +272,19 @@ p {
 
     .header-nav {
 
-        width: 100%;
+        width: 60%;
         clear: both;
         padding: 20px 0;
         text-align: center;
         margin: 0 50px;
     }
 
+    .moto-img {
+
+    padding: 10px;
+    width: 300px
+    
+    }
     .header > h1 {
 
         width: 100%;
@@ -251,5 +293,19 @@ p {
     .main-content {
         padding-top: 150px;
         margin-bottom: 50px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #name-input, #email-input {
+        height: 30px;
+        width: 460px;
+    } 
+
+    #message-input {
+        width: 460px;
     }
 }
