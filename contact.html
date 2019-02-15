@@ -1,93 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title>Bootsrap-Portfolio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css"
-    integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="./style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Corbin520 Contact</title>
 </head>
 <body>
-      <!-- Nav FROM Bootstrap but edited and overridden by my stylesheet-->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: black;">
-      <h1>Corbin Brockbank</h1>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="./index.html">About<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio<span class="sr-only">current</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-          </ul>
-        </div>
-      </nav>
-  </header>
 
+    <header class = "header-contact">
+        <h1>Corbin Brockbank</h1>
 
-     <!-- Contact Section using a bootstrap grid -->
-        <!-- used a form template from bootstrap on the contact information -->
+        <a href = "./index.html">About</a>
+        <a id="a2" href = "./portfolio.html">Portfolio</a>
+        <a href = "./contact.html">Contact</a>
+    </header>
 
-    <div class="container">
+    <div class = "my-contact">
+        <h2>Contact</h2>
+        <form>
 
-        <div class="row">
-          <div class="col">
-            <h2>Contact</h2>
-          </div>
-        </div>
-
-        <div class="row">
-            <div class="col">
-
-                <form>
-                    <div class="form-group">
-                      <label for="exampleFormControlInput1">Name</label>
-                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
-                    </div>
-                </form>
+            <div class="form-name">
+                <p>Name</p>
+                <input id="name-input" type="text" name="firstname" placeholder="John Smith">
             </div>
-        </div>
 
-        <div class="row">
-          <div class="col">
-
-          <form>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@email.com">
-              </div>
-          </form>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col">
-        
-          <form>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div class="form-email">
+                <p>Email</p>
+                <input id="email-input" type="text" name="email" placeholder="example@gmail.com">
             </div>
-          </form>
-        </div>
-      </div>
+
+            <div class="form-message">
+                <p>Message</p>
+                <input id="message-input" type="text" name="message">
+            </div>
+
+        </form>
     </div>
-      <!-- Footer Section -->
-    
-    <footer class = "index-footer">
-      <h6>Copyright&copy;</h6>
-    </footer>
 
+
+
+    <footer class="contact-footer">
+        <h6>Copyright&copy;</h6>
+    </footer>
 </body>
 </html>
