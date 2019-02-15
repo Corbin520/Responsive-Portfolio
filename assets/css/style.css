@@ -1,20 +1,24 @@
-/* always include this VV */
+
+* {
+    box-sizing: border-box;
+  }
+
 html,
 body {
     height: 100%;
 }
+/* Always include the styles above */
+
 
 body {
-    width: 100%;
     clear: both;
     background-image: url("../images/DustBackground.png");
     font-family: Arial, Helvetica, sans-serif;
-    display: -webkit-box;
 }
 
-.main-content {
+.wrapper{
 
-    height: 100%;
+    min-height: 100%;
 }
 .header > h1 {
     background: #4aaaa5;
@@ -22,7 +26,7 @@ body {
     text-align: center;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0 0 0 50px; 
+    margin-left: 240px; 
     padding: 20px;
     float: left;
    
@@ -35,7 +39,6 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
     border-bottom: solid 2px #cccccc;
     background: #ffffff;
     clear: both;
@@ -65,13 +68,14 @@ a {
 
 
 .about-me {
-    
+
     clear: both;
     padding: 10px 40px 20px 40px;
-    margin: 100px auto 60px 50px;
+    margin: 100px auto 60px auto;
     width: 960px;
     border: solid 2px #cccccc;
     background: #ffffff;
+    
 
 }
 
@@ -81,6 +85,11 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     
+}
+
+h6 {
+	color: #d3d3d3;
+	font-size: 12px;
 }
 
 #beach-picture {
@@ -103,10 +112,8 @@ footer {
     clear: both;
     color: #ffffff;
     width: 100%;
-    bottom: 0;
-    left: 0; 
-    position: fixed;
-    margin-top: 25px;
+    height: 60px;
+    margin-top: -20px;
     border-top: solid 7px #4aaaa5;
     text-align: center;
     background: #666666;
@@ -121,7 +128,6 @@ footer {
     padding: 10px 40px 20px 40px;
     margin: 100px auto 60px auto;
     width: 960px;
-    height: 700px;
     border: solid 2px #cccccc;
     background: #ffffff;
 }
@@ -155,28 +161,44 @@ footer {
 }
 
 #message-input {
-    height: 175px;
+    height: 250px;
     width: 950px;
 }
 
-h6 {
-    color: #D3D3D3;
+@media screen and (max-width: 980px) {
+    /* Left todo, fix footer to not be stuck over about-me */
+
+    .about-me, .my-portfolio, .my-contact {
+        width: 50%;
+        margin: 0 0 0 50px; 
+        margin-top: 100px;
+        padding-bottom: 75px;
+    }
+
+    .moto-img {
+        margin: 0 0 20px 20px;
+        
+    }
+
+    #name-input, #email-input {
+        height: 30px;
+        width: 485px;
+    } 
+    #message-input {
+        width: 485px;
+        
+    }
+    .header > h1 {
+        margin-left: 50px;
+    }
 }
 
 
-        /* Media Queries Assignment - "Responsive-Portfolio" */
-
-        /* What a media querie is, is its saying "do this" after I reach
-            this size of screen */
+@media screen and (max-width: 768px) {
 
 
-@media screen and (max-width: 980px) {
-    /* When size goes below 980, do this */
 
-    .about-me {
-        width: 50%;
-        margin: 10px 50px;
-    }
+
 
 }
 
@@ -198,43 +220,18 @@ h6 {
 
         width: 100%;
         clear: both;
-        padding-right: 0;
+        padding: 20px 0;
         text-align: center;
-        margin: 0 auto;
+        margin: 0 50px;
     }
 
     .header > h1 {
 
         width: 100%;
         margin: 0;
-        clear: both;
+    }
+    .main-content {
+        padding-top: 150px;
+        margin-bottom: 50px;
     }
 }
-
-
-
-
-
-
-
-
-    /* h1 {
-        background: #4aaaa5;
-        color: #ffffff;
-        text-align: center;
-        font-size: 30px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        margin: 0 350px 0 70px;
-        padding: 20px;
-        float: left;
-    }
-    .about-me, .my-contact {
-    
-        clear: both;
-        padding: 10px 100px 20px 40px;
-        margin: 100px 100px 60px 70px;
-        width: 980px;
-        border: solid 2px #cccccc;
-        background: #ffffff;
-    } */
-

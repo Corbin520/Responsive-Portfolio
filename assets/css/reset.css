@@ -3,9 +3,8 @@
    License: none (public domain)
 */
 
-/* re-do tomorrow */
 html, body, div, span, applet, object, iframe,
-h1, h3, h4, h5, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -25,7 +24,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
@@ -45,29 +45,4 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-h2 {
-    padding-bottom: 25px;
-    border-bottom: solid 2px #666666;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
-}
-
-h6 {
-	color: #d3d3d3;
-	font-size: 12px;
-}
-footer {   
-
-clear: both;
-color: #ffffff;
-width: 100%;
-/* bottom: 0;
-left: 0; */
-/* position: fixed; */
-margin-top: 25px;
-border-top: solid 7px #4aaaa5;
-text-align: center;
-background: #666666;
 }
