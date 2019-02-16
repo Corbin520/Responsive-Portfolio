@@ -30,7 +30,7 @@ body {
     padding: 20px;
     float: left;
    
-  /* 0 520 0 205 orig marg */
+
 }
 
 header {
@@ -108,7 +108,7 @@ p {
     color: #777777;
 }
 
-.index-footer, .contact-footer, .portfolio-footer {
+footer {
     clear: both;
     color: #ffffff;
     width: 100%;
@@ -166,10 +166,14 @@ p {
     width: 875px;
 }
 
+#kenR, #joshH, #jasonA, #deanW, #axellH, #firstT {
+    
+}
+
                             /* Responsive Media HW */
 
 
-/* 960px */
+
 @media screen and (max-width: 980px) {
 
     .about-me {
@@ -184,6 +188,7 @@ p {
         margin: 0 0 0 50px; 
         margin-top: 100px;
         padding-bottom: 730px;
+        height: auto;
     }
     .my-contact {
         width: 60%;
@@ -208,13 +213,15 @@ p {
         margin-left: 50px;
     }
 
+    /* this changed from nothing to the following */
     .header-nav {
-
+        float: right;
+        padding-right: 100px;
     }
 }
 
 
-/* 768px */
+
 @media screen and (max-width: 768px) {
 
     .about-me, .my-contact {
@@ -228,6 +235,7 @@ p {
         float: left;
         margin-left: 20px;
         margin-bottom: 20px;
+        height: 850px;
     }
 
     .my-contact,.my-portfolio {
@@ -238,6 +246,10 @@ p {
         margin-left: 20px;
     }
 
+    .header-nav {
+        float: right;
+        padding-right: 10px;
+    }
     p {
         font-size: 15px;
         line-height: 20px;
@@ -251,24 +263,35 @@ p {
     #message-input {
         width: 647px;
     }
+
+    #kenR, #joshH, #jasonA, #deanW, #axellH, #firstT {
+        width: 290px;
+    }
 }
 
 
-/* 640px */
+
 @media screen and (max-width: 640px) {
 
     .about-me, .my-contact, .my-portfolio {
         
+       
+        clear: both;
         width: 85%;
         margin: 15px auto;
         float: left;
         margin-left: 50px;
     }
-    .my-portfolio, .my-contact {
-
+    .my-portfolio {
+        
         margin-top: 181px;
+        height: 1600px
     }
-
+    .my-contact {
+        
+        margin-top: 181px;
+    
+    }
     #beach-picture {
         
         width: 100%;
@@ -283,13 +306,7 @@ p {
         text-align: center;
         margin: 0 50px;
     }
-
-    .moto-img {
-
-    padding: 10px;
-    width: 300px
     
-    }
     .header > h1 {
 
         width: 100%;
@@ -311,6 +328,11 @@ p {
     } 
 
     #message-input {
+        position: static;
         width: 460px;
+    }
+
+    #kenR, #joshH, #jasonA, #deanW, #axellH, #firstT {
+        width: 400px
     }
 }
