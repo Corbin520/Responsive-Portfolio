@@ -26,23 +26,22 @@
     <div class="my-contact">
         <h2>Contact</h2>
 
-        <!-- Name , Email , Message -->
-        <form>
+        <form id="contact-form">
             <div class="form-group my-4">
                 <label for="name">Name</label>
-                <input type="name" class="form-control" id="train-name" aria-describedby="emailHelp"
+                <input type="name" class="form-control" id="name-input" aria-describedby="emailHelp"
                 placeholder="Name">
             </div>
             <div class="form-group my-4">
                 <label for="exampleInputEmail1">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp"
                 placeholder="Enter email">
             </div>
             <div class="form-group my-4">
                 <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Let me know what you think about my page!"></textarea>
+                <textarea class="form-control" id="message-input" rows="3" placeholder="Let me know what you think about my page!"></textarea>
             </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" id="submit-button" class="btn btn-primary">Submit</button>
         </form>
     </div>
 
@@ -52,6 +51,6 @@
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="./assets/javascript/portfolio.js"></script>
+<script type="text/javascript" src="./assets/javascript/portfolio.js"></script>
 
 </html>
