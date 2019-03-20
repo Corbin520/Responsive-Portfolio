@@ -29,8 +29,6 @@ body {
     margin-left: 240px; 
     padding: 20px;
     float: left;
-   
-
 }
 
 header {
@@ -89,7 +87,8 @@ h2 {
 
 h6 {
 	color: #d3d3d3;
-	font-size: 12px;
+    font-size: 12px;
+    
 }
 
 #beach-picture {
@@ -108,15 +107,18 @@ p {
     color: #777777;
 }
 
-footer {
+.index-footer, .portfolio-footer, .contact-footer {
     clear: both;
-    color: #ffffff;
-    width: 100%;
-    height: 60px;
-    margin-top: -20px;
     border-top: solid 7px #4aaaa5;
     text-align: center;
-    background: #666666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color:#ffffff;
+    text-align: center;
+
     
 }
 

@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
     <title>Corbin520 Contact</title>
 </head>
+
 <body>
 
-    <header class = "header header-contact">
+    <header class="header header-contact">
         <h1>Corbin Brockbank</h1>
         <nav class="header-nav">
-            <a href = "./index.html">About</a>
-            <a id="a2" href = "./portfolio.html">Portfolio</a>
-            <a href = "./contact.html">Contact</a>
+            <a href="./index.html">About</a>
+            <a id="a2" href="./portfolio.html">Portfolio</a>
+            <a href="./contact.html">Contact</a>
         </nav>
     </header>
 
-    <div class = "my-contact">
+    <div class="my-contact">
         <h2>Contact</h2>
+
+        <!-- Name , Email , Message -->
         <form>
-
-            <div class="form-name">
-                <p>Name</p>
-                <input id="name-input" type="text" name="firstname" placeholder="John Smith">
+            <div class="form-group my-4">
+                <label for="name">Name</label>
+                <input type="name" class="form-control" id="train-name" aria-describedby="emailHelp"
+                placeholder="Name">
             </div>
-
-            <div class="form-email">
-                <p>Email</p>
-                <input id="email-input" type="text" name="email" placeholder="example@gmail.com">
+            <div class="form-group my-4">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
             </div>
-
-            <div class="form-message">
-                <p>Message</p>
-                <input id="message-input" type="text" name="message">
+            <div class="form-group my-4">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Let me know what you think about my page!"></textarea>
             </div>
-
+                <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
 
@@ -44,4 +50,8 @@
         <h6>Copyright&copy;</h6>
     </footer>
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./assets/javascript/portfolio.js"></script>
+
 </html>
