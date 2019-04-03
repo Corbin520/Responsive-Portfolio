@@ -29,3 +29,35 @@ $("#submit-button").on("click", function (event) {
 $("#firstT").on("click", function (event) {
     // update git hub projects on click of images
 })
+
+// On click events for the portfolio
+
+// project 1
+$("#kenR").on("click", function (event) {
+  console.log("Project One");
+});
+
+// giphy API
+$("#kenR").on("click", function (event) {
+  console.log("Giphy API");
+});
+
+// Trivia Game
+$("#kenR").on("click", function (event) {
+  console.log("Trivia Game");
+});
+
+// word guess game
+$("#kenR").on("click", function (event) {
+  console.log("Word Guess Game");
+});
+
+// Firebase Train Scheduler
+$("#kenR").on("click", function (event) {
+  console.log("Firebase Train Scheduler");
+});
+
+// Psychic Game
+$("#kenR").on("click", function (event) {
+  console.log("Psychic Game");
+})
