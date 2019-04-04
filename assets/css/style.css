@@ -101,6 +101,7 @@ p {
 }
 
 
+
                     /* Portfolio */
 
 .my-portfolio {
@@ -235,9 +236,9 @@ p {
         line-height: 20px;
     }
 
-    #adventure-utah, #giphy-api, #trivia-game, #word-guess, #train-scheduler, #Psychic-game {
+    /* #adventure-utah, #giphy-api, #trivia-game, #word-guess, #train-scheduler, #Psychic-game {
         width: 290px;
-    }
+    } */
 }
 
 
