@@ -167,6 +167,17 @@ p {
     width: 875px;
 }
 
+/* code pen */
+#code-pen-h1, #code-pen-h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+  }
+  #code-pen-h1 { font-size: 15px; }
+  #code-pen-h2 {
+    color: #888;
+    font-size: 2em;
+  }
+
                             /* Responsive Media HW */
 
 

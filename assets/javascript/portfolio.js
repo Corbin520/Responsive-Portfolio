@@ -26,53 +26,45 @@ $("#submit-button").on("click", function (event) {
       });
 });
 
-// $("#firstT").on("click", function (event) {
-    // update git hub projects on click of images
-// })
-
-// On click events for the portfolio
 
 
 
-// project 1
-$("#adventure-utah").on("click", function (event) {
-  console.log("Project One");
 
-  // https://corbin520.github.io/Project-1/
-});
+// // project 1
+// $("#adventure-utah").on("click", function (event) {
+//   console.log("Project One");
 
+//   // https://corbin520.github.io/Project-1/
+// });
+// // giphy API
 
-// giphy API
-$("#giphy-api").on("click", function (event) {
-  console.log("Giphy API");
+// / $("#giphy-api").on("click", function (event) {
+//   console.log("Giphy API");
 
-  // https://corbin520.github.io/giphy-api/
-});
+//   // https://corbin520.github.io/giphy-api/
+// });
 
-// Trivia Game
-$("#trivia-game").on("click", function (event) {
-  console.log("Trivia Game");
+// // Trivia Game
+// $("#trivia-game").on("click", function (event) {
+//   console.log("Trivia Game");
 
-  // https://corbin520.github.io/TriviaGame/
-});
+//   // https://corbin520.github.io/TriviaGame/
+// });
 
-// word guess game
-$("#word-guess").on("click", function (event) {
-  console.log("Word Guess Game");
+// // word guess game
+// $("#word-guess").on("click", function (event) {
 
-  // https://corbin520.github.io/Word-Guess-Game/
-});
+// });
 
-// Firebase Train Scheduler
-$("#train-scheduler").on("click", function (event) {
-  console.log("Firebase Train Scheduler");
+// // Firebase Train Scheduler
+// $("#train-scheduler").on("click", function (event) {
+//   console.log("Firebase Train Scheduler");
 
-  // https://corbin520.github.io/firebase-train-scheduler/
-});
+//   // https://corbin520.github.io/firebase-train-scheduler/
+// });
 
-// Psychic Game
-$("#psychic-game").on("click", function (event) {
-  console.log("Psychic Game");
+// // Psychic Game
+// $("#psychic-game").on("click", function (event) {
+//   console.log("Psychic Game");
 
-  // https://corbin520.github.io/Psychic-Game/
-})
+//   // https://corbin520.github.io/Psychic-Game/

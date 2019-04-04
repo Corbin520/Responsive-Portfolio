@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
     <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
     <title>Corbin520 Contact</title>
 </head>
@@ -40,8 +41,11 @@
                 placeholder="Enter email">
             </div>
             <div class="form-group my-4">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="message-input" rows="3" placeholder="Let me know what you think about my page!"></textarea>
+                <label for="exampleFormControlTextarea1">    
+                    <h1 id="code-pen-h1">Thoughts about my page?
+                        <span class="txt-rotate" data-period="2000" data-rotate='[ "Cool?", "Needs work?", "Suggestions?"]'></span>
+                      </h1></label>
+                <textarea class="form-control" id="message-input" rows="3" placeholder="Leave comments here"></textarea>
             </div>
                 <button type="submit" id="submit-button" class="btn btn-primary">Submit</button>
         </form>
@@ -49,15 +53,24 @@
 
     <footer class="contact-footer">
         <div class="contact-icons">
-            <i class="fab fa-github"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-facebook-square"></i>
+            <div class="git-hub">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/Corbin520" target="_blank"></a>
+            </div>
+            <div class="linked-in">
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/corbin-brockbank-173459168/" target="_blank"></a>
+            </div>
+            <div>
+                <i class="fab fa-facebook-square"></i>
+                <a href="https://www.facebook.com/corbin.brockbank" target="_blank"></a>
+            </div>
         </div>
         <h6>Copyright&copy;</h6>
     </footer>
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="./assets/javascript/portfolio.js"></script>
+<script type="text/javascript" src="./assets/javascript/contact.js"></script>
 
 </html>
