@@ -129,7 +129,7 @@ p {
     padding: 10px 40px 20px 40px;
     margin: 100px auto 60px auto;
     width: 960px;
-    height: 700px;
+    height: 700px; 
     border: solid 2px #cccccc;
     background: #ffffff;
 }
@@ -157,15 +157,15 @@ p {
     background: #ffffff;
 }
 
-#name-input, #email-input {
+/* #name-input, #email-input {
     height: 30px;
     width: 875px;
-}
+} */
 
-#message-input {
+/* #message-input {
     height: 250px;
     width: 875px;
-}
+} */
 
 /* code pen */
 #code-pen-h1, #code-pen-h2 {
@@ -263,14 +263,14 @@ p {
         line-height: 20px;
     }
 
-    #name-input, #email-input {
+    /* #name-input, #email-input {
         height: 30px;
         width: 647px;
     } 
 
     #message-input {
         width: 647px;
-    }
+    } */
 
     #adventure-utah, #giphy-api, #trivia-game, #word-guess, #train-scheduler, #Psychic-game {
         width: 290px;
@@ -338,9 +338,50 @@ p {
     #message-input {
         position: static;
         width: 460px;
-    }
+    } 
 
     #adventure-utah, #giphy-api, #trivia-game, #word-guess, #train-scheduler, #Psychic-game {
         width: 400px
     }
+}
+
+@media screen and (max-width: 375px) {
+
+.header-nav {
+
+    width: 65%;
+}
+
+.about-me {
+    width: 75%
+}
+.my-portfolio {
+    width: 75%;
+    margin-top: 181px;
+    height: 1600px
+}
+.my-contact {
+    width: 75%;
+}
+.header > h1 {
+
+    width: 100%;
+    margin: 0;
+}
+
+
+#name-input, #email-input {
+    width: 200px;
+} 
+
+#message-input {
+    width: 200px;
+} 
+
+#adventure-utah, #giphy-api, #trivia-game, #word-guess, #train-scheduler, #Psychic-game {
+    width: 150px;
+    /* height: 70px; */
+}
+
+
 }
