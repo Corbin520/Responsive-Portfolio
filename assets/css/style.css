@@ -9,7 +9,6 @@ body {
 }
 /* Always include the styles above */
 
-
 body {
     clear: both;
     background-image: url("../images/DustBackground.png");
@@ -85,7 +84,7 @@ h2 {
     
 }
 
-h6 {
+.contact-icons {
 	color: #d3d3d3;
     font-size: 12px;
     
@@ -135,7 +134,7 @@ p {
     background: #ffffff;
 }
 
-.moto-img{
+.portfolio-image{
     border: solid 4px #4aaaa5;
     float: left;
     margin: 10px;
@@ -194,7 +193,7 @@ p {
         margin-left: 50px;
     }
 
-    .moto-img {
+    .portfolio-image {
         margin: 0 0 20px 20px;
         
     }
@@ -262,7 +261,7 @@ p {
         width: 647px;
     }
 
-    #kenR, #joshH, #jasonA, #deanW, #axellH, #firstT {
+    #adventure-utah, #giphy-api, #trivia-game, #word-guess, #train-scheduler, #Psychic-game {
         width: 290px;
     }
 }
@@ -330,7 +329,7 @@ p {
         width: 460px;
     }
 
-    #kenR, #joshH, #jasonA, #deanW, #axellH, #firstT {
+    #adventure-utah, #giphy-api, #trivia-game, #word-guess, #train-scheduler, #Psychic-game {
         width: 400px
     }
 }

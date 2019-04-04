@@ -26,38 +26,53 @@ $("#submit-button").on("click", function (event) {
       });
 });
 
-$("#firstT").on("click", function (event) {
+// $("#firstT").on("click", function (event) {
     // update git hub projects on click of images
-})
+// })
 
 // On click events for the portfolio
 
+
+
 // project 1
-$("#kenR").on("click", function (event) {
+$("#adventure-utah").on("click", function (event) {
   console.log("Project One");
+
+  // https://corbin520.github.io/Project-1/
 });
 
+
 // giphy API
-$("#kenR").on("click", function (event) {
+$("#giphy-api").on("click", function (event) {
   console.log("Giphy API");
+
+  // https://corbin520.github.io/giphy-api/
 });
 
 // Trivia Game
-$("#kenR").on("click", function (event) {
+$("#trivia-game").on("click", function (event) {
   console.log("Trivia Game");
+
+  // https://corbin520.github.io/TriviaGame/
 });
 
 // word guess game
-$("#kenR").on("click", function (event) {
+$("#word-guess").on("click", function (event) {
   console.log("Word Guess Game");
+
+  // https://corbin520.github.io/Word-Guess-Game/
 });
 
 // Firebase Train Scheduler
-$("#kenR").on("click", function (event) {
+$("#train-scheduler").on("click", function (event) {
   console.log("Firebase Train Scheduler");
+
+  // https://corbin520.github.io/firebase-train-scheduler/
 });
 
 // Psychic Game
-$("#kenR").on("click", function (event) {
+$("#psychic-game").on("click", function (event) {
   console.log("Psychic Game");
+
+  // https://corbin520.github.io/Psychic-Game/
 })
