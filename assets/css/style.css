@@ -7,7 +7,6 @@ html,
 body {
     height: 100%;
 }
-/* Always include the styles above */
 
 body {
     clear: both;
@@ -55,7 +54,6 @@ a {
     padding: 10px;
     padding-top: 25px;
     text-decoration: none;
-    
 }
 
 #a2 {
@@ -72,22 +70,18 @@ a {
     width: 960px;
     border: solid 2px #cccccc;
     background: #ffffff;
-    
-
 }
 
 h2 {
     padding-bottom: 25px;
     border-bottom: solid 2px #666666;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
-    
+    color: #4aaaa5;  
 }
 
 .contact-icons {
 	color: #d3d3d3;
-    font-size: 12px;
-    
+    font-size: 12px; 
 }
 
 #beach-picture {
@@ -106,20 +100,6 @@ p {
     color: #777777;
 }
 
-.index-footer, .portfolio-footer, .contact-footer {
-    clear: both;
-    border-top: solid 7px #4aaaa5;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #666666;
-    color:#ffffff;
-    text-align: center;
-
-    
-}
 
                     /* Portfolio */
 
@@ -145,6 +125,11 @@ p {
     color: #ffffff;
 }
 
+#portfolio-link {
+    text-align: center;
+    color: white;
+}
+
                     /* Contact */
 
 .my-contact {
@@ -157,17 +142,6 @@ p {
     background: #ffffff;
 }
 
-/* #name-input, #email-input {
-    height: 30px;
-    width: 875px;
-} */
-
-/* #message-input {
-    height: 250px;
-    width: 875px;
-} */
-
-/* code pen */
 #code-pen-h1, #code-pen-h2 {
     font-weight: 200;
     margin: 0.4em 0;
@@ -178,8 +152,7 @@ p {
     font-size: 2em;
   }
 
-                            /* Responsive Media HW */
-
+                            /* Media Querys */
 
 
 @media screen and (max-width: 980px) {
@@ -221,7 +194,6 @@ p {
         margin-left: 50px;
     }
 
-    /* this changed from nothing to the following */
     .header-nav {
         float: right;
         padding-right: 100px;
@@ -263,27 +235,16 @@ p {
         line-height: 20px;
     }
 
-    /* #name-input, #email-input {
-        height: 30px;
-        width: 647px;
-    } 
-
-    #message-input {
-        width: 647px;
-    } */
-
     #adventure-utah, #giphy-api, #trivia-game, #word-guess, #train-scheduler, #Psychic-game {
         width: 290px;
     }
 }
 
 
-
 @media screen and (max-width: 640px) {
 
     .about-me, .my-contact, .my-portfolio {
         
-       
         clear: both;
         width: 85%;
         margin: 15px auto;
@@ -347,41 +308,39 @@ p {
 
 @media screen and (max-width: 500px) {
 
-.header-nav {
+    .header-nav {
 
-    width: 65%;
-}
+        width: 65%;
+    }
 
-.about-me {
-    width: 75%
-}
-.my-portfolio {
-    width: 75%;
-    margin-top: 181px;
-    height: 1600px
-}
-.my-contact {
-    width: 75%;
-}
-.header > h1 {
+    .about-me {
+        width: 75%
+    }
+    .my-portfolio {
+        width: 75%;
+        margin-top: 181px;
+        height: 1600px
+    }
+    .my-contact {
+        width: 75%;
+    }
+    .header > h1 {
 
-    width: 100%;
-    margin: 0;
-}
+        width: 100%;
+        margin: 0;
+    }
 
+    #name-input, #email-input {
+        width: 200px;
+    } 
 
-#name-input, #email-input {
-    width: 200px;
-} 
+    #message-input {
+        width: 200px;
+    } 
 
-#message-input {
-    width: 200px;
-} 
+    #adventure-utah, #giphy-api, #trivia-game, #word-guess, #train-scheduler, #Psychic-game {
+        width: 150px;
 
-#adventure-utah, #giphy-api, #trivia-game, #word-guess, #train-scheduler, #Psychic-game {
-    width: 150px;
-    /* height: 70px; */
-}
-
+    }
 
 }
