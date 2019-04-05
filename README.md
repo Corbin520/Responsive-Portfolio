@@ -10,5 +10,7 @@ HTML
 CSS
 Media Querys
 Mobile Responsive 
+Google fonts
+Code-Pen
 
 
