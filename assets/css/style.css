@@ -102,6 +102,36 @@ p {
 
 
 
+/* STILL WORKING ON THE LOGOS HERE */
+
+a.fa-github-square {
+
+    width: 52px;
+    text-align:center;
+    float:left;
+    /* margin-left: 50%;
+    margin-right: 50%; */
+}
+
+a.fa-facebook-square {
+
+    width: 52px;
+    text-align:center;
+    float:left;
+    /* margin-left: 50%;
+    margin-right: 50%;   */
+}
+
+a.fa-linkedin-square {
+
+    width: 52px;
+    text-align:center;
+    float:left;
+    /* margin-left: 50%;
+    margin-right: 50%;  */
+}
+
+
                     /* Portfolio */
 
 .my-portfolio {
@@ -130,6 +160,7 @@ p {
     text-align: center;
     color: white;
 }
+
 
                     /* Contact */
 
@@ -199,6 +230,7 @@ p {
         float: right;
         padding-right: 100px;
     }
+
 }
 
 
@@ -235,10 +267,9 @@ p {
         font-size: 15px;
         line-height: 20px;
     }
-
-    /* #adventure-utah, #giphy-api, #trivia-game, #word-guess, #train-scheduler, #Psychic-game {
-        width: 290px;
-    } */
+    .index-footer {
+        text-align: center;
+    }
 }
 
 
@@ -305,6 +336,10 @@ p {
     #adventure-utah, #giphy-api, #trivia-game, #word-guess, #train-scheduler, #Psychic-game {
         width: 400px
     }
+
+    .index-footer {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -342,6 +377,10 @@ p {
     #adventure-utah, #giphy-api, #trivia-Game, #word-guess, #train-scheduler, #psychic-game {
         width: 150px;
 
+    }
+
+    .index-footer {
+        text-align: center;
     }
 
 }
