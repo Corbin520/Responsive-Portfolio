@@ -320,7 +320,7 @@ p {
     .my-portfolio {
         width: 75%;
         margin-top: 181px;
-        height: 1600px
+        height: 1800px
     }
     .my-contact {
         width: 75%;
@@ -339,7 +339,7 @@ p {
         width: 200px;
     } 
 
-    #adventure-utah, #giphy-api, #trivia-game, #word-guess, #train-scheduler, #Psychic-game {
+    #adventure-utah, #giphy-api, #trivia-Game, #word-guess, #train-scheduler, #psychic-game {
         width: 150px;
 
     }
