@@ -1,4 +1,4 @@
-
+/* add break on JS type thing to see if it fixes it to put it on a different line */
 * {
     box-sizing: border-box;
   }
@@ -50,7 +50,20 @@ header {
     padding-right: 235px;
 }
 
+
 a {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    margin: 0;
+    padding: 10px;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+.page-buttons {
+
     font-family: 'Hammersmith One', sans-serif;
     font-size: 15px;
     text-align: center;
@@ -88,6 +101,7 @@ h2 {
 }
 
 .contact-icons {
+    text-align: center;
 	color: #d3d3d3;
     font-size: 12px; 
 }
@@ -116,30 +130,36 @@ a.fa-github-square {
 
     width: 52px;
     text-align:center;
-    float:left;
-    /* margin-left: 50%;
-    margin-right: 50%; */
 }
 
 a.fa-facebook-square {
 
     width: 52px;
     text-align:center;
-    float:left;
-    /* margin-left: 50%;
-    margin-right: 50%;   */
 }
 
 a.fa-linkedin-square {
 
     width: 52px;
     text-align:center;
-    float:left;
-    /* margin-left: 50%;
-    margin-right: 50%;  */
 }
 
+/* .contact-icons {
 
+    margin: 0 auto;
+} */
+
+.index-footer {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-icons {
+    position: center;
+}
                     /* Portfolio */
 
 .my-portfolio {
