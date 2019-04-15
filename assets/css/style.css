@@ -375,7 +375,7 @@ a.fa-linkedin-square {
         width: 460px;
     } 
 
-    #adventure-utah, #giphy-api, #trivia-game, #word-guess, #train-scheduler, #Psychic-game {
+    #adventure-utah, #giphy-api, #trivia-game, #word-guess, #train-scheduler, #liri-app {
         width: 400px
     }
 
@@ -416,13 +416,25 @@ a.fa-linkedin-square {
         width: 200px;
     } 
 
-    #adventure-utah, #giphy-api, #trivia-Game, #word-guess, #train-scheduler, #psychic-game {
+    #adventure-utah, #giphy-api, #trivia-Game, #word-guess, #train-scheduler, #liri-app {
         width: 150px;
 
     }
 
     .index-footer {
         text-align: center;
+    }
+
+    a {
+        display: block;
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 15px;
+        text-align: center;
+        color: gray;
+        margin: 0;
+        padding: 10px;
+        padding-top: 25px;
+        text-decoration: none;
     }
 
 }
