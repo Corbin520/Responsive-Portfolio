@@ -1,4 +1,4 @@
-/* add break on JS type thing to see if it fixes it to put it on a different line */
+
 * {
     box-sizing: border-box;
   }
@@ -144,11 +144,6 @@ a.fa-linkedin-square {
     text-align:center;
 }
 
-/* .contact-icons {
-
-    margin: 0 auto;
-} */
-
 .index-footer {
     text-align: center;
     width: 100%;
@@ -168,7 +163,7 @@ a.fa-linkedin-square {
     padding: 10px 40px 20px 40px;
     margin: 100px auto 60px auto;
     width: 960px;
-    height: 700px; 
+    height: 870px; 
     border: solid 2px #cccccc;
     background: url("../images/DustBackground.png");
     background-size: 100%;
@@ -375,7 +370,8 @@ a.fa-linkedin-square {
         width: 460px;
     } 
 
-    #adventure-utah, #giphy-api, #bamazon-app, #word-guess, #train-scheduler, #liri-app {
+    #adventure-utah, #giphy-api, #bamazon-app, #word-guess, #train-scheduler, 
+    #liri-app, #where-to-eat, #micro-market, #friend-finder {
         width: 400px
     }
 
@@ -397,7 +393,7 @@ a.fa-linkedin-square {
     .my-portfolio {
         width: 75%;
         margin-top: 181px;
-        height: 1800px
+        height: 2650px
     }
     .my-contact {
         width: 75%;
@@ -416,7 +412,8 @@ a.fa-linkedin-square {
         width: 200px;
     } 
 
-    #adventure-utah, #giphy-api, #bamazon-app, #word-guess, #train-scheduler, #liri-app {
+    #adventure-utah, #giphy-api, #bamazon-app, #word-guess, #train-scheduler, 
+    #liri-app, #where-to-eat, #micro-market, #friend-finder{
         width: 150px;
 
     }
