@@ -14,6 +14,7 @@ body {
     background-size: 100%;
     height: auto;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .wrapper{
@@ -163,7 +164,7 @@ a.fa-linkedin-square {
     padding: 10px 40px 20px 40px;
     margin: 100px auto 60px auto;
     width: 960px;
-    height: 870px; 
+    height: 1110px; 
     border: solid 2px #cccccc;
     background: url("../images/DustBackground.png");
     background-size: 100%;
@@ -371,7 +372,7 @@ a.fa-linkedin-square {
     } 
 
     #adventure-utah, #giphy-api, #bamazon-app, #word-guess, #train-scheduler, 
-    #liri-app, #where-to-eat, #micro-market, #friend-finder {
+    #liri-app, #where-to-eat, #micro-market, #friend-finder, #mongo-scraper {
         width: 400px
     }
 
@@ -413,7 +414,7 @@ a.fa-linkedin-square {
     } 
 
     #adventure-utah, #giphy-api, #bamazon-app, #word-guess, #train-scheduler, 
-    #liri-app, #where-to-eat, #micro-market, #friend-finder{
+    #liri-app, #where-to-eat, #micro-market, #friend-finder, #mongo-scraper{
         width: 150px;
 
     }
